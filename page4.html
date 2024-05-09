@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q3 Project</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gamja+Flower">
+		<link rel="stylesheet" href="style.css">
+<style>
+	body{
+		background-color:#F7F7F8;
+	}
+	#ssnav{
+		background-color:#CBE6F1;
+	}
+	p{
+		font-family:"Noto Sans JP";
+		color:#3C3C3C;
+	}
+	td{
+		font-family:"Noto Sans JP";
+	}
+	h1{
+		font-family: "Noto Sans JP";
+		color:#0E4642;
+	}
+	h2{
+		font-family: "Signika";
+		color:#168479;
+	}
+	h3{
+		font-family: "Signika";
+		color:#3C3C3C;
+		font-size:20px;
+		letter-spacing:2px;
+		font-weight:bold;
+	}
+	a{
+		color:#97AAAD;
+	}
+	#logo{
+		width:90%;
+	}
+	#heading{
+		font-size:16px;
+		padding:0px;
+		margin:0px;
+	}
+	#links{
+		color:#3C3C3C;
+		font-family:Signika;
+		font-size:20px;
+	}
+	#topnav{
+		width:60%;
+		}
+	#search-container{
+		width:45%;
+		}
+	#cover{
+		height:200px;
+		width:200px;
+	}
+	#translate{
+		color:#5E5E5E;
+		font-weight:lighter;
+	}
+	#td2{
+		background-color:#EAEAEA;
+	}
+	#longalbum{
+		padding:35px;
+	}
+	#mv{
+		padding-left:20px;
+	}
+</style>
+</head>
+<body>
+
+	<nav id="nav" class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="main.html"> <img src="logo.png" id="brand"> </a>
+
+		<div id="topnav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link text-light" target="self" href="page2.html">First Quarter</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-light" target="self" href="page3.html">Second Quarter</a><!--when clicked, the text for my second quarter project will appear-->
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-light" target="self">Third Quarter</a><!--when clicked, the text for my third quarter project will appear-->
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-light" target="self" href="page5.html">What's Next?</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link text-light" href="https://fascinated-star-0e2.notion.site/Fourth-Quarter-Quiz-Project-Portfolio-d4985d96fcfe4e2187f73fe2e736114b?pvs=4" target="_blank">References<sup>[e]</sup></a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="search-container">
+			<form> 
+				<input id="searchbar" type="search" name="search" placeholder="Search..." class="searchinput">
+				<button id="searchimg" class="btn btn-sm" type="submit"><center><img id="search" src="searchicon.png"></center></button>
+			</form>
+		</div>
+
+		<a href="index.html"><button style="margin-left: 20px; padding:1px; width:100px; border:solid 2px #6e5b49; background-color: #6e5b49; color:black; font-family:Gamja Flower; font-size:20px; color:white">Log Out </button></a>
+
+	</nav>
+
+	<div style="padding-top:15px; padding-bottom:10px; margin-bottom:20px; margin-right:20px; margin-left:20px; border-bottom:2px solid #9d7b5a">
+		<a href="main.html"><button style="border-radius: 10px; padding:1px; width:150px; border:solid 2px #9d7b5a; background-color: #9d7b5a; color:black; font-family:Gamja Flower; font-size:20px; color:white"> <span style="font-family:Noto Sans; letter-spacing:5px"> < </span> Main Page </button></a>
+	</div>
+
+	<nav id="ssnav" class="navbar navbar-expand-md"> 
+	<a class="navbar-brand"><img id="logo" src="logo2.png"></a> 
+
+	<div id="topnav">
+	<ul class="navbar-nav" style="width:80%"> 
+		<li class="nav-item">
+			<a class="nav-link" id="links" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="links" href="#disco">Discography</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="links" href="#media">Media</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="links" href="#space">space</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="links" href="https://www.saitosoma.com/" target="_blank">[ official website ]</a>
+		</li>
+	</ul> 
+</div>
+
+<div id="search-container" style="width:20%;">
+	<form>
+			<input style="width:200px; height:30px" id="search" type="text" class="btn-sm" id="search" placeholder="Search..." name="search">
+			<button type="button" class="btn btn-outline-info" style="width:50px">🐋</button>
+	</form>
+</div>
+</nav>
+
+<table>
+	<tr>
+		<td class="col-md-4">
+			<div style="padding-top:60px; padding-left:50px">
+			<img src="image.png" style="width:100%;">
+			</div>
+		</td>
+		<td class="col-md-8">
+			<div style="width:70%; padding-top:65px;">
+			<p>Soma Saito (斉藤 壮馬) is a Japanese voice actor affliated with 81 Produce and Sacra Music.<br><br> 
+				He is known for his roles in <i>"Haikyuu!!"</i> (Yamaguchi Tadashi), <i>"Terror in Resonance"</i> (Twelve), <i>"Moriarty the Patriot"</i> (William James Moriarty), and <i>"Rurouni Kenshin"</i> (Himura Kenshin). He is also notable for his BL works (Miyano in "Sasaki to Miyano", Mafuyu in the "Given" CD) and idol projects such as Hypnosis Mic (Gentaro Yumeno) and IDOLiSH7 (Tenn Kujo). He has an ongoing solo radio, <i>Strange DayS</i></a> and a radio called <i>Dame Janai Radio</i> with fellow voice "Haikyuu!!" and "Terror in Resonance" voice actor Kaito Ishikawa. <br><br>
+				Saito made his artist debut in 2017 and is currently writing his own songs. Ever since his debut, he has delved in multiple genres such as indie rock, shoegaze, city pop, guitar rock, and alternative rock.</p>
+			</div>
+		</td> 
+	</tr>
+</table>
+
+<h2 id="disco" style="margin-left:20px; padding-bottom:20px; padding-top:100px">Discography </h2>
+<div class="container justify-content-center align-items-center">
+	<div class="row">
+			<table class="table table-border">
+			<thead class="thead-light">
+			<tr>
+				<th class="col-md-5">
+					<p id="heading">Title & Details</p>
+				</th>
+				<th class="col-md-7">
+					<p id="heading">Tracks</p>
+				</th>
+			</tr>
+			</thead>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/4GBQaDl8PQfmS1tkZi9xDB?si=8S1PnjuGRh-gHqX5rqNh9A" target="_blank">
+					<img src="fishstory.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>フィッシュストーリー (Fish Story)</b><br>Single | 2017, June 6</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. フィッシュストーリー <span id="translate">[Fish Story]</span><br>
+				2. 影踏み <span id="translate">[Kagefumi]</span><br>
+				3. スタンドアローン <span id="translate">[Stand Alone]</span><br>
+				4. フィッシュストーリー (Instrumental)
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/4TBN3pBUrZYDTcreICi8i9?si=4M9DTq9DR6e7fUdKqrsDxQ" target="_blank">
+					<img src="Yoake.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>夜明けはまだ／ヒカリ断ツ雨<br>(Yoake wa mada/Hikari Tatsu Ame)</b><br>Single | 2017, September 18</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. 夜明けはまだ <span id="translate">[Yoake wa mada]</span><br>
+				2. ヒカリ断ツ雨 <span id="translate">[Hikari Tatsu Ame]</span><br>
+				3. スプートニク <span id="translate">[SPUTNIK]</span><br>
+				4. 夜明けはまだ (Instrumental)
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/7rcZDcPUcpHsqWr1NO4BjL?si=oYZTXgSQTbCBuXv7TXg2vw" target="_blank">
+					<img src="date.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>デート (Date)</b><br>Single | 2018, June 20</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. デート <span id="translate">[Date]</span><br>
+				2. レミニセンス <span id="translate">[Reminiscence]</span><br>
+				3. C<br>
+				4. デート (Instrumental)
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<div id="longalbum">
+					<a href="https://open.spotify.com/album/33Ah2U8iHIFwVl4xLZwGu6?si=5hfSIakoRPKUdP04wCOFng" target="_blank">
+					<img src="quantumstranger.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>quantum stranger</b><br>Album | 2018, December 19</p>
+					</div>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. フィッシュストーリー <span id="translate">[Fish Story]</span><br>
+				2. デラシネ <span id="translate">[Deraciné]</span><br>
+				3. sunday morning(catastrophe)<br>
+				4. レミング、愛、オベリスク <span id="translate">[Lemming, Ai, Obelisk]</span><br>
+				5. るつぼ <span id="translate">[Rutsubo]</span><br>
+				6. ヒカリ断ツ雨<span id="translate"> [Hikari Tatsu Ame]</span><br>
+				7. レミニセンス –unplugged- <span id="translate">[Reminiscence -unplugged-]</span><br>
+				8. デート <span id="translate">[Date]</span><br>
+				9. 光は水のよう <span id="translate">[Hikari was mizu no you]</span><br>
+				10. 夜明けはまだ <span id="translate">[Yoake wa mada]</span><br>
+				11. Incense<br>
+				12. 結晶世界 <span id="translate">[Kessho Sekai]</span><br>
+				<span id="translate">{13. Penguin Sanatorium (Secret Track)}</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/2oM6RrdVQ87LwTMGaTrQLU?si=3oIBzP5ITryjRTkEkvoftA" target="_blank">
+					<img src="mbv1.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>my blue vacation</b><br>EP | 2019, December 18</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. memento<br>
+				2. Paper Tigers<br>
+				3. ワルツ <span id="translate">[Waltz]</span><br>
+				4. 林檎 <span id="translate">[Ringo]</span><br>
+				5. Tonight<br>
+				<span id="translate">{6. Hidden Track}</span>
+
+
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/33ypI9QHdymh4arCct4RNk?si=1uwgUZzhQf-FLe6oK-IFzg" target="_blank">
+					<img src="epilogue.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>エピローグ (Epilogue)</b><br>Single | 2020, March 22	</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. エピローグ <span id="translate">[Epilogue]</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/2EfUquNi60xhIQno1n3HpN?si=nqHf647JSV6Oomb9Kxvybg" target="_blank">
+					<img src="petrichor.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>ペトリコール (Petrichor)</b><br>Single | 2020, June 27</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. ペトリコール <span id="translate">[Petrichor]</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/10147y3z2RqNVZCld4DNS9?si=VNgJftzPSUGa0GiOY6NOtg" target="_blank">
+					<img src="summerholic.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>Summerholic!</b><br>Single | 2020, August 19</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. Summerholic!
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/2oM6RrdVQ87LwTMGaTrQLU?si=3oIBzP5ITryjRTkEkvoftA" target="_blank">
+					<img src="palette.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>パレット (Palette)</b><br>Single | 2020, September 19</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. パレット <span id="translate">[Palette]</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<div id="longalbum">
+					<a href="https://open.spotify.com/album/5p9c5jiVG8BMUc8E9mi24R?si=AfTSYuyfRpenfNC0XLGjXw" target="_blank">
+					<img src="inbloom.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>in bloom</b><br>Album | 2020, December 23</p>
+					</div>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. carpool<br>
+				2. シュレディンガー・ガール <span id="translate">[Schrodinger Girl]</span><br>
+				3. Vampire Weekend<br>
+				4. キッチン <span id="translate">[Kitchen]</span><br>
+				5. ペトリコール <span id="translate">[Petrichor]</span><br>
+				6. Summerholic!<br>
+				7. パレット <span id="translate">[Palette]</span><br>
+				8. BOOKMARK<br>
+				9. カナリア <span id="translate">[Canaria]</span><br>
+				10. いさな <span id="translate">[Isana]</span><br>
+				11. 最後の花火 <span id="translate">[Saigo no hanabi]</span><br>
+				<span id="translate">{12. 逢瀬 (Secret Track)}</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/2AAT2J8ms4vME6J88iALPb?si=6cGX32MaQhWeuRhOtfa8Ug" target="_blank">
+					<img src="mbv2.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>my beautiful valentine</b><br>EP | 2022, February 9</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. ラプソディ・インフェルノ <span id="translate">[Rhapsody Inferno]</span><br>
+				2. ないしょばなし <span id="translate">[Naisho banashi]</span><br>
+				3. (Liminal Space)Daydream<br>
+				4. 幻日 <span id="translate">[Genjitsu]</span><br>
+				5. 埋み火 <span id="translate">[Uzumibi]</span><br>
+				6. ざくろ <span id="translate">[Zakuro]</span><br>
+				<span id="translate">{7. クドリャフカ (Secret Track)}</span>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/59Q8joj1UZPkJwLyD6c1te?si=f5F2y0QGQGOldk6E-CXG0g" target="_blank">
+					<img src="rakuken.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>楽園 (Rakuken)</b><br>Single | 2022, June 30</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. 楽園 <span id="translate">[Rakuken]</span><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/1g3Vmyhio4CkUi2QWku3j2?si=tMGfA9-qSG6ReaFIqU5juw" target="_blank">
+					<img src="secrettracks.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>Secret Tracks</b><br>Digital Album | 2022, November 7</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. ビール (Secret Track)<br>
+				2. ペンギン・サナトリウム (Secret Track)<br>
+				3. エピローグ (Secret Track)<br>
+				4. 逢瀬 (Secret Track)<br>
+				5. クドリャフカ (Secret Track)<br>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="col-md-5">
+					<center>
+					<a href="https://open.spotify.com/album/3jjCpP3z1nfa8wpUd3O6j3?si=UqlsVMMZRzaTVYzg21DAlg" target="_blank">
+					<img src="yy.jpg" id="cover" class="mx-auto d-block img-thumbnail"></a>
+					<p><b>陰/陽 (Yin/Yang)</b><br>EP | 2022, December 7</p>
+					</center>
+				</td>
+				<td class="col-md-7" id="td2">
+				1. 楽園 <span id="translate">[Rakuen]</span><br>
+				2. SPACE TRIP</span><br>
+				3. エニグマ・ゲーム <span id="translate">[Enigma Game]</span><br>
+				4. 風花 <span id="translate">[Kazahana]</span><br>
+				5. 蝿の王 <span id="translate">[Hae no Ou / Lord of the Flies]</span><br>
+				6. mirrors<br>
+				<span id="translate">{7. St. Obsession (Secret Track)}</span>
+				</td>
+			</tr>
+
+			</table>
+	</div>
+</div>
+
+<h2 id="media" style="margin-left:20px">Media</h2>
+<div style="padding:20px;">
+	<h3 style="padding-bottom:20px">LATEST RELEASE</h3>
+	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3jjCpP3z1nfa8wpUd3O6j3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+<div>
+	<h3 style="padding-left:20px; padding-bottom:10px">MUSIC VIDEOS</h3>
+	<table>
+		<tr>
+			<td><div id="mv"><iframe width="300" height="175" src="https://www.youtube.com/embed/Gx9XA-gykjc" title="Soma Saito - mirrors (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+			<td><div id="mv"><iframe width="300" height="175" src="https://www.youtube.com/embed/WQzlUuV6ugw" title="Soma Saito - memento (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+			<td><div id="mv"><iframe width="300" height="175" src="https://www.youtube.com/embed/VTBsalb5WPM" title="Soma Saito - Summerholic! (Official Music Video) Short Ver." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+			<td><div id="mv"><iframe width="300" height="175" src="https://www.youtube.com/embed/P24i5Q5UuVM" title="Soma Saito - carpool (Official Music Video)  Short Ver." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+		</tr>
+	</table>
+</div>
+<div>
+	<h3 style="padding-left:20px; padding-bottom:10px; padding-top:10px">LIVE</h3>
+	<table>
+		<tr>
+			<td><div id="mv"><iframe width="400" height="240" src="https://www.youtube.com/embed/5jCPWe8Jt58" title="Soma Saito &quot;Palette&quot; Live (Live Tour 2021 “We are in bloom!” at Tokyo Garden Theater)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+			<td><div id="mv"><iframe width="400" height="240" src="https://www.youtube.com/embed/xXjTBZ55tFA" title="Soma Saito &quot;Reminiscence&quot; Live (1st Live &quot;quantum stranger(s)&quot;)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+			<td><div id="mv"><iframe width="400" height="240" src="https://www.youtube.com/embed/VE4Y07M2RSQ" title="Soma Saito &quot;Hae no Ou&quot; Live (5th Anniversary Live &quot;banquet&quot;) 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+		</tr>
+	</table>
+</div>
+
+<h2 id="space" style="margin-left:20px; padding-bottom:20px; padding-top:100px; text-align:center; color:#0E4642">space </h2>
+<center>
+<div id="newsletter" class="col-md-10" style="border: 5px solid; border-color:#168479; padding:40px;">
+	<h5 style="font-weight:bold; font-size:25px; font-family:Noto Sans JP; letter-spacing:2px">join the fan club</h5>
+	<br>
+	<form>
+		<div class="col-md-8">
+			<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+		</div>
+		<div class="col-md-8">
+			<label class="form-check-label">
+					<input type="checkbox" class="form-check-input">
+					<span style="color:black; font-family:Noto Sans JP">I agree to your terms and conditions.</span>
+			</label>
+		</div>
+		<br>
+		<div class="col-md-6">
+			<button type="button" class="btn btn-block" style="background-color:#0E4642; color:white; font-family:Noto Sans JP;">SIGN ME UP</button>
+		</div>
+	</form>
+</div>
+</center>
+<br><br><br><br><br>
+	<p style="font-size:10px; padding-left:10px;"><a style="color:#3C3C3C;" href="https://fascinated-star-0e2.notion.site/references-for-3q-project-a38dae245f2e4100a3ad5f4165375133?pvs=4" target="_blank">all images and information from multiple sources</a></p>
+
+	<div style="margin-top: 50px; padding-bottom:15px; padding-top:10px; margin-right:20px; margin-left:20px; border-top:2px solid #9d7b5a">
+		<a href="main.html"><button style="border-radius: 10px; padding:1px; width:150px; border:solid 2px #9d7b5a; background-color: #9d7b5a; color:black; font-family:Gamja Flower; font-size:20px; color:white"> <span style="font-family:Noto Sans; letter-spacing:5px"> < </span> Main Page </button></a>
+	</div>
+
+</body>
+</html>
