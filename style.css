@@ -110,6 +110,19 @@ nav{
 	font-family:Noto Sans;
 	font-size:15px;
 }
+footer{
+	width: 100%;
+	background-color:#9d7b5a;
+	color: white;
+	text-align: center;
+}
+#footerb{
+	width:65px; 
+	height:65px; 
+	border-radius: 50px;
+	background-color:#9d7b5a;
+	border:#9d7b5a;
+}
 
 /*page*/
 #home{
@@ -126,10 +139,9 @@ nav{
 }
 #pmain{
 	font-family:Noto Sans;
-	color:#35654d;
+	color:white;
 	font-size:14px;
-	padding-right:300px;
-	padding-left:300px;
+	padding-top:15px;
 }
 #h3main{
 	font-family:Montserrat;
